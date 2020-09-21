@@ -8,7 +8,10 @@
     "venv": true,
     ".vscode": true,
     "QuestionTime/users/__pycache__": true,
-    "QuestionTime/QuestionTime/__pycache__": true
+    "QuestionTime/QuestionTime/__pycache__": true,
+    "QuestionTime/__pycache__": true,
+    "users/__pycache__": true,
+    "core/__pycache__": true
   },
   "workspace.isHidden": true
 }
