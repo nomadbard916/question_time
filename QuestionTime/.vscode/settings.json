@@ -11,7 +11,9 @@
     "QuestionTime/QuestionTime/__pycache__": true,
     "QuestionTime/__pycache__": true,
     "users/__pycache__": true,
-    "core/__pycache__": true
+    "core/__pycache__": true,
+    "users/api/__pycache__": true,
+    "questions/__pycache__": true
   },
   "workspace.isHidden": true
 }

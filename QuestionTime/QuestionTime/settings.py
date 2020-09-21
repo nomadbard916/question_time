@@ -47,6 +47,7 @@ INSTALLED_APPS = [
     "rest_auth.registration",
     "crispy_forms",
     "users",
+    "questions",
 ]
 
 MIDDLEWARE = [
