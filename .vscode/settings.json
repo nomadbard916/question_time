@@ -1,0 +1,13 @@
+{
+  "python.pythonPath": "e:\\Coding_projects\\django_quora_app\\venv\\Scripts\\python.exe",
+  // "python.autoComplete.extraPaths": [
+  //   "e:\\Coding_projects\\recipe-app-api-django\\app\\venv"
+  // ],
+  "python.venvPath": "e:\\Coding_projects\\django_quora_app\\venv",
+  "files.exclude": {
+    "venv": true,
+    ".vscode": true,
+    "QuestionTime/users/__pycache__": true
+  },
+  "workspace.isHidden": true
+}
