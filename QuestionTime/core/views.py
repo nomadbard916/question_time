@@ -9,4 +9,4 @@ class IndexTemplateView(LoginRequiredMixin, TemplateView):
         #     template_name = "index-dev.html"
         # else:
         #     template_name = "index.html"
-        return "index.html"
+        return "index-dev.html"
