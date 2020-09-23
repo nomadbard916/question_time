@@ -4,6 +4,7 @@
   //   "e:\\Coding_projects\\django_quora_app\\QuestionTime"
   // ],
   "python.venvPath": "e:\\Coding_projects\\django_quora_app\\venv",
+
   "files.exclude": {
     "venv": true,
     ".vscode": true,
