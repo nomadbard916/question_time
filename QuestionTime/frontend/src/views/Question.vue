@@ -67,7 +67,7 @@
 
 <script>
 import { apiService } from "@/common/api.service.js";
-// import AnswerComponent from "@/components/Answer.vue";
+import AnswerComponent from "@/components/Answer.vue";
 // import QuestionActions from "@/components/QuestionActions.vue";
 export default {
   name: "Question",
@@ -77,10 +77,10 @@ export default {
       required: true,
     },
   },
-  // components: {
-  //   AnswerComponent,
-  //   QuestionActions,
-  // },
+  components: {
+    AnswerComponent,
+    // QuestionActions,
+  },
   data() {
     return {
       question: {},
