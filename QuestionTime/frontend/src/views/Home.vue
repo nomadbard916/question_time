@@ -60,10 +60,10 @@ export default {
         }
       });
     },
-    created() {
-      this.getQuestions();
-      document.title = "QuestionTime";
-    },
+  },
+  created() {
+    this.getQuestions();
+    document.title = "QuestionTime";
   },
   // components: {
   //   HelloWorld,
