@@ -65,9 +65,6 @@ export default {
     this.getQuestions();
     document.title = "QuestionTime";
   },
-  // components: {
-  //   HelloWorld,
-  // },
 };
 </script>
 
