@@ -4,6 +4,8 @@ import VueRouter from "vue-router";
 import Home from "../views/Home.vue";
 // @ts-ignore
 import Question from "../views/Question.vue";
+// @ts-ignore
+import QuestionEditor from "../views/QuestionEditor.vue"
 
 Vue.use(VueRouter);
 
@@ -18,6 +20,12 @@ const routes = [
     name: "question",
     component: Question,
     // let :slug passed to Question component as props
+    props: true
+  },
+  {
+    path: "/ask/:id",
+    name: "question-editor",
+    component: QuestionEditor,
     props: true
   },
 ];
