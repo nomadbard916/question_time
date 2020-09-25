@@ -6,6 +6,8 @@ import Home from "../views/Home.vue";
 import Question from "../views/Question.vue";
 // @ts-ignore
 import QuestionEditor from "../views/QuestionEditor.vue"
+// @ts-ignore
+import AnswerEditor from "../views/AnswerEditor.vue"
 
 Vue.use(VueRouter);
 
@@ -26,6 +28,12 @@ const routes = [
     path: "/ask/:id",
     name: "question-editor",
     component: QuestionEditor,
+    props: true
+  },
+  {
+    path: "/answer/:id",
+    name: "answer-editor",
+    component: AnswerEditor,
     props: true
   },
 ];
