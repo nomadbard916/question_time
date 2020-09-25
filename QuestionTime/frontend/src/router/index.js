@@ -9,7 +9,7 @@ import QuestionEditor from "../views/QuestionEditor.vue"
 // @ts-ignore
 import AnswerEditor from "../views/AnswerEditor.vue"
 // @ts-ignore
-import NotFound from "../views/NotFound.vue"
+import NotFound from "../components/NotFound.vue"
 
 Vue.use(VueRouter);
 
