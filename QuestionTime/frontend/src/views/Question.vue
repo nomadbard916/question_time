@@ -68,7 +68,7 @@
 <script>
 import { apiService } from "@/common/api.service.js";
 import AnswerComponent from "@/components/Answer.vue";
-// import QuestionActions from "@/components/QuestionActions.vue";
+import QuestionActions from "@/components/QuestionActions.vue";
 export default {
   name: "Question",
   props: {
@@ -79,7 +79,7 @@ export default {
   },
   components: {
     AnswerComponent,
-    // QuestionActions,
+    QuestionActions,
   },
   data() {
     return {

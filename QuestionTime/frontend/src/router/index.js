@@ -25,7 +25,7 @@ const routes = [
     props: true
   },
   {
-    path: "/ask/:id",
+    path: "/ask/:slug?",
     name: "question-editor",
     component: QuestionEditor,
     props: true
